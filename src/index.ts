@@ -44,7 +44,7 @@ export class Guapp {
   }
 
   public connect() {
-    this.socket = io("http://command.wtfproxy.com:9988", {
+    this.socket = io("wss://command.guapp.ai", {
       auth: {
         apiKey: this.apiKey,
       },

@@ -1,6 +1,6 @@
 {
   "name": "@guapp.ai/guapp-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "public": true,
   "description": "Earn money with your app",
   "main": "dist/index.js",
