@@ -1,0 +1,25 @@
+{
+  "name": "@guapp.ai/guapp-sdk",
+  "version": "0.0.2",
+  "public": true,
+  "description": "Earn money with your app",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sylchi/guapp-sdk.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Ken Kauksi",
+  "license": "AGPLv3",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.4"
+  }
+}

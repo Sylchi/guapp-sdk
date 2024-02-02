@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsxImportSource": "preact",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["es2015"],
+    "target": "es2015",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "./dist"
+  }
+}
