@@ -2,7 +2,7 @@
 
 ## Usage
 
-Get your api key from https://guapp.io
+Get your api key from https://guapp.ai
 
 install the package
 
@@ -12,8 +12,8 @@ instantiate the package and start the app
 
 Commonjs
 
-```
-const { Guapp } = require('@guapp.ai/guapp-sdk');
+```javascript
+const { Guapp } = require("@guapp.ai/guapp-sdk");
 
 const guapp = new Guapp("Your api key");
 guapp.connect();
@@ -21,8 +21,8 @@ guapp.connect();
 
 Typescript
 
-```
-import { Guapp } from '@guapp.ai/guapp-sdk';
+```typescript
+import { Guapp } from "@guapp.ai/guapp-sdk";
 
 const guapp = new Guapp("Your api key");
 guapp.connect();
